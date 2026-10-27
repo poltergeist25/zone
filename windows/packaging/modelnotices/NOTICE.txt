@@ -1,0 +1,18 @@
+Zone includes unmodified Google MediaPipe Face Landmarker task bundle version 1.
+Its BlazeFace short-range detector, FaceMesh V2 landmarks detector and Blendshape
+V2 model are licensed under Apache License, Version 2.0, as specified on page 1
+of their respective official model cards. Full license text is included here.
+
+BlazeFace model authorship: Valentin Bazarevsky, Google.
+FaceMesh V2 model authorship: Geng Yan and Ivan Grishchenko, Google.
+Blendshape V2 model authorship: Ivan Grishchenko, Geng Yan, Andrei Zanfir and
+Eduard Gabriel Bazavan, Google.
+
+Geometry pipeline metadata: Copyright 2020 The MediaPipe Authors.
+Its corresponding source, including the original copyright/license notice,
+is retained as geometry-metadata.pbtxt. The full upstream MediaPipe LICENSE,
+including its additional notices, is retained as mediapipe-LICENSE.txt.
+
+The component hashes, original URLs and model card references are recorded in
+components.json. Zone does not modify the task bundle, use it for recognition,
+or treat it as a medical assessment. No warranty is provided by the model authors.

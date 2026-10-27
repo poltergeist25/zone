@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Microsoft-Visual-C-Runtime-2015-2022",
+    "url": "https://visualstudio.microsoft.com/wp-content/uploads/2021/09/Visual-C-Runtime-2015-2022-License-1.docx",
+    "sha256": "f1e3d56ceb2ad68aae0711b910375009e651ac5530fa0760f0dea6e81e54fae1",
+    "text_sha256": "ed875263593823eb4b685cd543eda0ab075a6f57a76f7718908f2237466c442f",
+    "retrieved": "2026-10-26",
+    "accepted": false
+  },
+  {
+    "name": "Microsoft-Visual-Studio-Community-2022",
+    "url": "https://visualstudio.microsoft.com/wp-content/uploads/2021/11/Visual-Studio-2022-Community-License-EN.docx",
+    "sha256": "41a207b10c8ab91d0d2f10a854715f73dca54509581692d2fe179aa3ffcb8540",
+    "text_sha256": "24b187690944c166a8337208454cbc775e1a39406d6f2a986e9a34d8f1a1f259",
+    "retrieved": "2026-10-26",
+    "accepted": false
+  }
+]

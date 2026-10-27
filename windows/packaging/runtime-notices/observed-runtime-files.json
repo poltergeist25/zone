@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "source": "Accepted Windows engineering build #2 (2026-10-26), prior candidate not the current parity build",
+  "source_executable_sha256": "0c7dfd871971d5a8e94f57ee0cecb7fef29fe8fcf120601c2c536deb38e3eff6",
+  "redistribution_entitlement_verified": false,
+  "files": [
+    {
+      "path": "_internal/PySide6/MSVCP140.dll",
+      "bytes": 549176,
+      "sha256": "9a6cf6095a24dfaca230409fc795d688619dc5663200ae59213eeaaa02d030b3"
+    },
+    {
+      "path": "_internal/PySide6/MSVCP140_1.dll",
+      "bytes": 27448,
+      "sha256": "8ce6980144fadfea52b6f14f7799e05e3232c28414fb5e617968a814be33fc1a"
+    },
+    {
+      "path": "_internal/PySide6/MSVCP140_2.dll",
+      "bytes": 271672,
+      "sha256": "14301dc6a6021b6e70d102535d9b9a7ad1a40cfc61e88b601a9af8b84e0096b2"
+    },
+    {
+      "path": "_internal/PySide6/VCRUNTIME140.dll",
+      "bytes": 116024,
+      "sha256": "21a16fc13606d5d6091bca7e110d051bc0b247852c468565ac2f11b26cde9db8"
+    },
+    {
+      "path": "_internal/PySide6/VCRUNTIME140_1.dll",
+      "bytes": 41272,
+      "sha256": "e1c403e00debd7ab4481f142f22b01cad03472b26a93c7e95cd3f66897156b34"
+    },
+    {
+      "path": "_internal/VCRUNTIME140.dll",
+      "bytes": 120400,
+      "sha256": "052ad6a20d375957e82aa6a3c441ea548d89be0981516ca7eb306e063d5027f4"
+    },
+    {
+      "path": "_internal/VCRUNTIME140_1.dll",
+      "bytes": 49776,
+      "sha256": "6a99bc0128e0c7d6cbbf615fcc26909565e17d4ca3451b97f8987f9c6acbc6c8"
+    },
+    {
+      "path": "_internal/api-ms-win-crt-conio-l1-1-0.dll",
+      "bytes": 22056,
+      "sha256": "b762061b688aae679afe788904d2c9970f74a7dac98f3b42463d08f25e483d3f"
+    },
+    {
+      "path": "_internal/api-ms-win-crt-convert-l1-1-0.dll",
+      "bytes": 26056,
+      "sha256": "ebb2ae5535a64f65daeab8235585114fc9dd2cf1a49f5852d446250b998b6ae4"
+    },
+    {
+      "path": "_internal/api-ms-win-crt-environment-l1-1-0.dll",
+      "bytes": 22080,
+      "sha256": "17d63275d00bdd8670422b95bd264c532998e0a1b041079e54fce4b6b7a55819"
+    },
+    {
+      "path": "_internal/api-ms-win-crt-filesystem-l1-1-0.dll",
+      "bytes": 22056,
+      "sha256": "9a9e2a65a281644e368d0f272b95ba5f6b445d1c35910d06056c5ebeb77402db"
+    },
+    {
+      "path": "_internal/api-ms-win-crt-heap-l1-1-0.dll",
+      "bytes": 22096,
+      "sha256": "bab9ac3ec83e380ae51e4295ef3bf2c738627812d3a49d1e713661abbc8dc57a"
+    },
+    {
+      "path": "_internal/api-ms-win-crt-locale-l1-1-0.dll",
+      "bytes": 22080,
+      "sha256": "bd14c67ea28e21d6257ad780a37122c9b5773f69e693f5db6bffaee4d839526e"
+    },
+    {
+      "path": "_internal/api-ms-win-crt-math-l1-1-0.dll",
+      "bytes": 30248,
+      "sha256": "606d66d82db562ea7979179d06486a0f94d079941d26b80a1e2c49d29959df6f"
+    },
+    {
+      "path": "_internal/api-ms-win-crt-private-l1-1-0.dll",
+      "bytes": 75328,
+      "sha256": "1bc82bed6143d2bf1b6b08a7809f4a5e29317d6fddd338a7da3c0223522e4bbf"
+    },
+    {
+      "path": "_internal/api-ms-win-crt-process-l1-1-0.dll",
+      "bytes": 22096,
+      "sha256": "f6156b1020380ec4f0e48577ebedaaef5fb1ab1f337d8b4e72e6a33a7567a9cc"
+    },
+    {
+      "path": "_internal/api-ms-win-crt-runtime-l1-1-0.dll",
+      "bytes": 26152,
+      "sha256": "c5902934d026d7e15fbe9917d474f3322846a41a25e66f4b2b1f758801879f4b"
+    },
+    {
+      "path": "_internal/api-ms-win-crt-stdio-l1-1-0.dll",
+      "bytes": 26168,
+      "sha256": "a9c5a153d8c0286f9b41a2b1c65854ad9e6471b8755b7de87bae4470e60bcab6"
+    },
+    {
+      "path": "_internal/api-ms-win-crt-string-l1-1-0.dll",
+      "bytes": 26176,
+      "sha256": "25b8f83a7767211b11132775a0e27a45aa4ec8ab4e6572599f9c172ae3606b40"
+    },
+    {
+      "path": "_internal/api-ms-win-crt-time-l1-1-0.dll",
+      "bytes": 22096,
+      "sha256": "7c7f6393f06de11750adb09cc5698ae55cd9fb27b2e51e207286feb1b5b2b156"
+    },
+    {
+      "path": "_internal/api-ms-win-crt-utility-l1-1-0.dll",
+      "bytes": 21952,
+      "sha256": "d8ba5f17b9ffcbf3aeaf3fa1da226832d2fa90f81acce0cd669464e76ce434ac"
+    },
+    {
+      "path": "_internal/numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+      "bytes": 575056,
+      "sha256": "a4c2229bdc2a2a630acdc095b4d86008e5c3e3bc7773174354f3da4f5beb9cde"
+    },
+    {
+      "path": "_internal/shiboken6/MSVCP140.dll",
+      "bytes": 549176,
+      "sha256": "d8fcd3b7619e7aa5623653afecbec42751358e56ac04aed7cc679cc494376ef1"
+    },
+    {
+      "path": "_internal/shiboken6/VCRUNTIME140.dll",
+      "bytes": 116024,
+      "sha256": "bd2cce9499558b77b919c6cc70db52e7c697b76f2f53376ec9eab79e0c292a4d"
+    },
+    {
+      "path": "_internal/shiboken6/VCRUNTIME140_1.dll",
+      "bytes": 41272,
+      "sha256": "813c8808223f29b7d68589f62f2812d87e5e43b5d50ce7f351942a5c92cde5a6"
+    },
+    {
+      "path": "_internal/ucrtbase.dll",
+      "bytes": 1361448,
+      "sha256": "2e5fb14b7bf8540278f3614a12f0226e56a7cc9e64b81cbd976c6fcf2f71cbfb"
+    }
+  ]
+}

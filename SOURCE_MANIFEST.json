@@ -1,0 +1,727 @@
+{
+  "schema": 1,
+  "snapshot_date": "2026-10-27",
+  "app_source_files": {
+    "macOS": 24,
+    "Windows": 10
+  },
+  "license_original_application_code": "MIT",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "b00006b2a1c05d9f3288cd451bd4350b5409037f2ae3208ce706978849ae9446",
+      "bytes": 359
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "547f4387163805eb5be49243f100ffbb9f693f6b64acc1cd3dc2eea7355a4df4",
+      "bytes": 1081
+    },
+    {
+      "path": "PRIVACY.md",
+      "sha256": "e48ca33643852121e163e543f28a8b43dbc83386318f1388051942552519be83",
+      "bytes": 3113
+    },
+    {
+      "path": "README.md",
+      "sha256": "8fafadb8911cd945c196b7a316dc6384e080069f9447680c436f0c32968fae74",
+      "bytes": 2505
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "2ba8b62e9c97e4edac0a16bc80a14b480badce5df5a6d0f504b2c8be79310fc7",
+      "bytes": 391
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "sha256": "74d2259d22d5f50c03e636cde910ac67766b97c83f4d255581d2dae46eb3e1fc",
+      "bytes": 1442
+    },
+    {
+      "path": "macos/AppIcon.icns",
+      "sha256": "434dfa0e24e06abf263d32dfe22f0e42c58680cca5e74630cd9a547e2c2fb476",
+      "bytes": 189137
+    },
+    {
+      "path": "macos/Info.plist",
+      "sha256": "603d0860c8396c2f0ab0efb468f1edd8a0ffa429fefee3494f127391873afe75",
+      "bytes": 1119
+    },
+    {
+      "path": "macos/PostureZone.entitlements",
+      "sha256": "a8c5e1b265127978300cc2152ac375033d41c4c1d08c87c2ca05ca804d8a164f",
+      "bytes": 281
+    },
+    {
+      "path": "macos/README.md",
+      "sha256": "ab9b5b470256550cee14dfc089d090e7733d5e856279da73033c3fbaebb7985e",
+      "bytes": 1623
+    },
+    {
+      "path": "macos/Sources/AnalysisCadence.swift",
+      "sha256": "e691d761f20526d16cadd21e10138090381808b19687fcce2b7ed68dc61f105c",
+      "bytes": 1363
+    },
+    {
+      "path": "macos/Sources/AnalysisFrames.swift",
+      "sha256": "e02703902f7b4970a8466807b15470d075a8ccfb1fbbbec6b03901c77770012b",
+      "bytes": 1753
+    },
+    {
+      "path": "macos/Sources/CameraModel.swift",
+      "sha256": "437e41ec36baac37c2202e6d4ed682eb0b1f36b09f50e451fe012928b491d052",
+      "bytes": 43423
+    },
+    {
+      "path": "macos/Sources/DailyProgress.swift",
+      "sha256": "2909cc775c21521ba28a0a80802c7af6231a3e8a71087fae545bd8c63d30c55f",
+      "bytes": 10583
+    },
+    {
+      "path": "macos/Sources/Engine.swift",
+      "sha256": "5ad2cdcdd2cd405b6e5420ab06373003b6cafacdc43d85fdb77dd6fc5247e509",
+      "bytes": 12548
+    },
+    {
+      "path": "macos/Sources/FaceContinuity.swift",
+      "sha256": "7505ad266a179f390698f4f0e3efe86a1a2998023f946a6ef2c26740416a5baa",
+      "bytes": 12732
+    },
+    {
+      "path": "macos/Sources/FaceMotionGate.swift",
+      "sha256": "a5d76a7465aa515a82b8041fa9718ef204a594e2b712e04d7cdb14b8d33e9e6c",
+      "bytes": 4092
+    },
+    {
+      "path": "macos/Sources/HeightThermometer.swift",
+      "sha256": "8aba78e04c299437766ff37bbfe293fbc58a4db1bb9f8eccfb20bf7a9fb630c4",
+      "bytes": 7628
+    },
+    {
+      "path": "macos/Sources/LandmarkPatchTracker.swift",
+      "sha256": "b68c5d0b1b7b4d3f1d9b98e0f32aced5bb36f9c134573293fcaaf7bda3f455f5",
+      "bytes": 14620
+    },
+    {
+      "path": "macos/Sources/LiveScore.swift",
+      "sha256": "233af8dbf01b5305cf6295be1c5a5d14ef8b552c79d6788e74dedfc548aa9543",
+      "bytes": 7899
+    },
+    {
+      "path": "macos/Sources/MenuBarController.swift",
+      "sha256": "3cfaeeaf56af1caef0bbfda7fc44dc5116041a7128ea4c609bea167bfb69765d",
+      "bytes": 14197
+    },
+    {
+      "path": "macos/Sources/MenuBarGlow.swift",
+      "sha256": "ca52ee5639677e1f632c5085121ea442fd2cf053774aa6097fa5ccf6823b422b",
+      "bytes": 6141
+    },
+    {
+      "path": "macos/Sources/MenuBarIcon.swift",
+      "sha256": "8023f3d3db24b325459ac1baa795c5981a748fd4fce7c11399025f3fd4811129",
+      "bytes": 7794
+    },
+    {
+      "path": "macos/Sources/PeripheralEffect.swift",
+      "sha256": "086b75fd050ba9101405656415f1a049b0d04fafd8b840d1d8aa183f2398a308",
+      "bytes": 7531
+    },
+    {
+      "path": "macos/Sources/PostureZoneApp.swift",
+      "sha256": "5e896c133cc9542c64a5eaf23a03e16e527ca756f0e7d4cba9b90d928c170b22",
+      "bytes": 22393
+    },
+    {
+      "path": "macos/Sources/Preferences.swift",
+      "sha256": "1a94c2b85bbf69f2700ba1a2c9264f2a3f8899634909bfbab0d4f9f944e68d2e",
+      "bytes": 6797
+    },
+    {
+      "path": "macos/Sources/ProgressViews.swift",
+      "sha256": "b9b5bf9514fc4e1baa224ff818222b053e1091c11893abe562e0e3ce42e52923",
+      "bytes": 11738
+    },
+    {
+      "path": "macos/Sources/SeatedPose.swift",
+      "sha256": "f9b7c93df3f7d12d3465862781459bdc25cb445857914ff3f28d9a9c3a3473ee",
+      "bytes": 11098
+    },
+    {
+      "path": "macos/Sources/SetupCheck.swift",
+      "sha256": "454714809f997fc1fbf497534a6284c6aef3303a1c893e8c703acfa64dba9a64",
+      "bytes": 1396
+    },
+    {
+      "path": "macos/Sources/SmokeHalo.swift",
+      "sha256": "8756612d3d9c5898532abf8ebbd2e43c43b367a11d62e63b14b347b35bbed143",
+      "bytes": 22680
+    },
+    {
+      "path": "macos/Sources/TrackingPerformance.swift",
+      "sha256": "7e866223e73746c7fdb96bc44c66784ea537595b626050aadc8d4f5717ac4fa4",
+      "bytes": 8547
+    },
+    {
+      "path": "macos/Sources/UpdateResume.swift",
+      "sha256": "8fdb49b8fea979c29b7e3ab40074e3394c7a69088ddf628831a1cef48c92011e",
+      "bytes": 5070
+    },
+    {
+      "path": "macos/Sources/VisualStyles.swift",
+      "sha256": "109ccff83a92b8498662a8cf9b0bcb6e1d28ed41e5fa185baa46fba3800ffb24",
+      "bytes": 26999
+    },
+    {
+      "path": "macos/Sources/WarningEntrance.swift",
+      "sha256": "85de4b966b0943f137a3afe9a05982e085c8a8f1ac94612e76b6413aeccbaaa4",
+      "bytes": 2361
+    },
+    {
+      "path": "macos/Tests/AnalysisCadenceChecks.swift",
+      "sha256": "465531cb82b3e5ddb30bea6cf7780238a569537bc4cfc19902f60cbb86ec4157",
+      "bytes": 3917
+    },
+    {
+      "path": "macos/Tests/AnalysisFramesChecks.swift",
+      "sha256": "64f34e1aea0f4319a82dea795bb80c7c01d1bb15910112e85917e4247f01d4db",
+      "bytes": 3472
+    },
+    {
+      "path": "macos/Tests/AnatomicalCalibrationChecks.swift",
+      "sha256": "a9743de723b2c019956ca8ac03535513981ca6d9864ff11f9b575f3aaa0b7569",
+      "bytes": 8779
+    },
+    {
+      "path": "macos/Tests/AutoCaptureChecks.swift",
+      "sha256": "b6634ac167f3f999e04ffb18a3196f4f132aaa354e4afb490dbd8d9b637e2b7f",
+      "bytes": 3739
+    },
+    {
+      "path": "macos/Tests/CameraSwitchChecks.swift",
+      "sha256": "c81dcf3b26ef01e60b39c2e442345e9a4e9ab9a2bdc907276ecb63e14f4a5208",
+      "bytes": 2133
+    },
+    {
+      "path": "macos/Tests/CompactLayoutChecks.swift",
+      "sha256": "e2c33d8df5531f36a9cc1265b72a10ae36239457103e3f5938d4d3d4d34b2047",
+      "bytes": 3258
+    },
+    {
+      "path": "macos/Tests/ComparisonChecks.swift",
+      "sha256": "c1c3cf21cb94b09411e97ca908c099cff0b8e6266e3b67695226096846449071",
+      "bytes": 4038
+    },
+    {
+      "path": "macos/Tests/DailyBalanceChecks.swift",
+      "sha256": "e15537911ed056ce58810e6b66dea506ea88edb30c1688abd44862a99beeb767",
+      "bytes": 4182
+    },
+    {
+      "path": "macos/Tests/DailyProgressChecks.swift",
+      "sha256": "242518ad7451e0867ff825e24522976b22fae84a495fe5d41311de212cadb7e8",
+      "bytes": 10467
+    },
+    {
+      "path": "macos/Tests/EdgeEffectChecks.swift",
+      "sha256": "8c49a510a84cea0956030c2106b93fdd641d17b0012a099811b30ab0fb15802f",
+      "bytes": 4625
+    },
+    {
+      "path": "macos/Tests/FaceContinuityChecks.swift",
+      "sha256": "c025a434921b20b87d64475e0b7097f43f64a2618c0350165d74ead69b29b4df",
+      "bytes": 8023
+    },
+    {
+      "path": "macos/Tests/FaceMotionGateChecks.swift",
+      "sha256": "c1df7ff44163ab025a67269c2f8b67c18c8700842ef4209d0ef7727657b073e4",
+      "bytes": 1938
+    },
+    {
+      "path": "macos/Tests/GreenClearChecks.swift",
+      "sha256": "3db2ef5c0a41bf2972cd92d51cbecd80f8866d521cf5c8f96ba9c77728081097",
+      "bytes": 1835
+    },
+    {
+      "path": "macos/Tests/HeadTurnChecks.swift",
+      "sha256": "fc97b7fa4229efed7671b577697d9bb98f4cce3635ce7429820970dd17b357a8",
+      "bytes": 2741
+    },
+    {
+      "path": "macos/Tests/HeightFlowChecks.swift",
+      "sha256": "4d23ebc65cdf4ad02119f28fab7afaaa831b83fede07dfc73a2da835011bafa7",
+      "bytes": 4630
+    },
+    {
+      "path": "macos/Tests/HeightPanelChecks.swift",
+      "sha256": "b5d3f386d9f618f1f25be1baf69967881f3f001bc02f3ae7f5c5b465a4e8c6ae",
+      "bytes": 4215
+    },
+    {
+      "path": "macos/Tests/LandmarkHeightChecks.swift",
+      "sha256": "c4e6c6dfb27738fe107b1afdc472fa40c153346e04ced5cbdb5f2f649c6761d5",
+      "bytes": 2670
+    },
+    {
+      "path": "macos/Tests/LandmarkPatchTrackerChecks.swift",
+      "sha256": "d89f4d5923a960de6d425f8d0f43845fd5095ada33006ba24438f1e3ef6d3eb4",
+      "bytes": 10089
+    },
+    {
+      "path": "macos/Tests/LayeredSmokeChecks.swift",
+      "sha256": "b5e07c869c2d8820a4bb485f6e1f4c238e0254f5399c3cab563b0669566bf27d",
+      "bytes": 9116
+    },
+    {
+      "path": "macos/Tests/LifecycleRecoveryChecks.swift",
+      "sha256": "7543f5eeadd111776687037eb60ff9977dd9ed0a6f2eb689f00bbcd480c4fd59",
+      "bytes": 5286
+    },
+    {
+      "path": "macos/Tests/LightweightVisionChecks.swift",
+      "sha256": "d2dcc441dc053f5c2cc802ae4f3a42100a49df097f712493d1e0069afdd54033",
+      "bytes": 7706
+    },
+    {
+      "path": "macos/Tests/LiveIconEfficiencyChecks.swift",
+      "sha256": "ac73e802e634701b0bc3b1b0e4480a07c95025936ef515cac0802498322c6ac4",
+      "bytes": 6153
+    },
+    {
+      "path": "macos/Tests/LiveScoreChecks.swift",
+      "sha256": "a417ac26171b926222180d2f32bfb29142e2de66b1663cc506c48f3b23342b46",
+      "bytes": 4342
+    },
+    {
+      "path": "macos/Tests/MenuBarChecks.swift",
+      "sha256": "8a81baa8c24e8a03566c8e8bf1472ef6966de9eff10166766f86d780f9ec3236",
+      "bytes": 14146
+    },
+    {
+      "path": "macos/Tests/MenuIconChecks.swift",
+      "sha256": "86405411cdc9722f4628bf8fe7b05cce9be71a95b40855658e9909a7093c8f13",
+      "bytes": 3263
+    },
+    {
+      "path": "macos/Tests/ModelPersistence.swift",
+      "sha256": "a582364ae5d625ba7e7d4009e8c62292e356557f6dab00cc3f27d0d7f53c84f4",
+      "bytes": 4155
+    },
+    {
+      "path": "macos/Tests/PreferencesTests.swift",
+      "sha256": "c2b5a15d841cc8706794578455c76c667d4e4583fb5999c17e25ba8c3be4d4bb",
+      "bytes": 11792
+    },
+    {
+      "path": "macos/Tests/ProgressTimelineChecks.swift",
+      "sha256": "b8015a9d97c9a0610ca49b0579c4ceb335b047f2babf19944bc6a80fa7b784f0",
+      "bytes": 4415
+    },
+    {
+      "path": "macos/Tests/QuietTrackingChecks.swift",
+      "sha256": "f58a07307eeab4525f8892fd14c3e1649e0d5710829cb8623377a0a185eae2ae",
+      "bytes": 1419
+    },
+    {
+      "path": "macos/Tests/ReacquisitionChecks.swift",
+      "sha256": "5097eaf041533b4e03bc4181d5c2843cdd80ae2c0c7fff3113c15d62d6e329af",
+      "bytes": 3592
+    },
+    {
+      "path": "macos/Tests/RedAlertPreferenceChecks.swift",
+      "sha256": "5ac4e03e236453478bee15eeb86e32ffd3c29b7b0512777f4d18bfeb1d1852be",
+      "bytes": 3771
+    },
+    {
+      "path": "macos/Tests/RedContinuityChecks.swift",
+      "sha256": "20876bcc48389bfacd86106d6bdc6b06fb51d1d9cbf2bf5096164984049a53af",
+      "bytes": 5845
+    },
+    {
+      "path": "macos/Tests/ReliabilityChecks.swift",
+      "sha256": "c0977d4ae00c48392f83ac8d77534ca6e4a56a35b6202538e9e0a7542fa9eb1a",
+      "bytes": 5220
+    },
+    {
+      "path": "macos/Tests/RenderGallery.swift",
+      "sha256": "3ac7c1ddc727bd55a1eb072eeb025646a15923a885f9cd8bb172da77d9721932",
+      "bytes": 1066
+    },
+    {
+      "path": "macos/Tests/RenderLive.swift",
+      "sha256": "224c92c865bee319c73c61dd4f61a7622d4ce3f677881950c7d2e924c88e8ca8",
+      "bytes": 1171
+    },
+    {
+      "path": "macos/Tests/RenderLooks.swift",
+      "sha256": "b069c24850a50a129d30b03bdec3eb64b01d176ae33b1ddc673a4bc8d5c967b3",
+      "bytes": 2201
+    },
+    {
+      "path": "macos/Tests/RenderMain.swift",
+      "sha256": "635ca936ffafe447f6fc2b1c12dfc7e7b3efa5a01b25545cc69a6450dad7bbb3",
+      "bytes": 1501
+    },
+    {
+      "path": "macos/Tests/ReturnAnchorChecks.swift",
+      "sha256": "f21643ff79358b1fda7ba1133dc124e1e2d207f77cffbac3dc66a2494599bea3",
+      "bytes": 4150
+    },
+    {
+      "path": "macos/Tests/SeatedDetection.swift",
+      "sha256": "92bbafa82cae1794e6a7e3b6221cb2ad9f92f8bcb5bf41eae97cf43b93c6a8a6",
+      "bytes": 4863
+    },
+    {
+      "path": "macos/Tests/SideReturnChecks.swift",
+      "sha256": "4da5b704862390a18f57bcf6f0dbbf7d426a618655ca1c17b903399fd3e7048f",
+      "bytes": 3096
+    },
+    {
+      "path": "macos/Tests/SmokeChecks.swift",
+      "sha256": "e259d810445db05763eb644fc50a985af9cc5092225eb9fd36f7fad0f0cb222b",
+      "bytes": 5644
+    },
+    {
+      "path": "macos/Tests/SmokeMotion.swift",
+      "sha256": "c84843bea10a9df457e006fc389291298102afc98b2d73b12b1ff405346eb8a6",
+      "bytes": 1777
+    },
+    {
+      "path": "macos/Tests/TrackerAblationChecks.swift",
+      "sha256": "667b32e2f5aaa76a5e61188f745852507b98edda8296476be1a0e9c507fd1262",
+      "bytes": 2568
+    },
+    {
+      "path": "macos/Tests/UIRefinementChecks.swift",
+      "sha256": "0810b22ab38cefd2e97e77bb8a6016cceb1542282ce5bcf66879e888bf75e793",
+      "bytes": 998
+    },
+    {
+      "path": "macos/Tests/UpdateModelChecks.swift",
+      "sha256": "176b074267ca0c7d322f91c14744b2e898b5e231c4bda517407c6d6b6e1052bb",
+      "bytes": 6984
+    },
+    {
+      "path": "macos/Tests/UpdateResumeChecks.swift",
+      "sha256": "89f354d39f4716ba5d570232c7afe5f50ed6cc65bfe4f569b7a77945f81bbdd8",
+      "bytes": 5302
+    },
+    {
+      "path": "macos/Tests/VisionContinuityChecks.swift",
+      "sha256": "cd9abd9f6e208035d6e8e19d530fb72caa8d13b22c265df9c78bcb49d688491f",
+      "bytes": 3172
+    },
+    {
+      "path": "macos/Tests/VisionSideReturnChecks.swift",
+      "sha256": "3025d1cc0fc8ecd980adfa99969f307ec4fe9a2b3a993a6292d467d0b35bc7ad",
+      "bytes": 2851
+    },
+    {
+      "path": "macos/Tests/VisionSmoke.swift",
+      "sha256": "393e3947e263eb619e9d620273f5a199a60c44cb2b5d32d665ef4ad878539206",
+      "bytes": 680
+    },
+    {
+      "path": "macos/Tests/VisualUpdateChecks.swift",
+      "sha256": "f96ca369e0754aba76a63a278e50ac063df71338b8d28b5d966f664a120c7a9e",
+      "bytes": 8379
+    },
+    {
+      "path": "macos/Tests/WarningEntranceChecks.swift",
+      "sha256": "1af87142e3b1208648fa33ef5cbf7e7030bf64b9b9a33c61f3f28848ac8b5ff4",
+      "bytes": 8269
+    },
+    {
+      "path": "macos/Tests/main.swift",
+      "sha256": "3cf2dd0d14967384c0d0aea88a3bbe0d264e1ad2a8dd360b0f6224126892b53a",
+      "bytes": 8123
+    },
+    {
+      "path": "macos/Tests/test_install_update.py",
+      "sha256": "09a202feeeb635ece1933e265c007dc05abfb6ee3e373328814d2d6bda54e878",
+      "bytes": 17387
+    },
+    {
+      "path": "macos/build.sh",
+      "sha256": "8747ac347ecabddfa24a8ef2bc59cd17b62d19c76b1cb5da2a66e6825d306fc8",
+      "bytes": 3242
+    },
+    {
+      "path": "macos/install-update.py",
+      "sha256": "61890996289d653be10545ffcbaab07ec14e67122ea233e47e0492168c960e09",
+      "bytes": 20354
+    },
+    {
+      "path": "macos/make-icon.swift",
+      "sha256": "c0143b1745aa535929b81a5fabfe1300da8bc30547bc6b03a4582d490d55c9e1",
+      "bytes": 1839
+    },
+    {
+      "path": "macos/tools/UpdateHost.swift",
+      "sha256": "2de453ec202f05c24aa3d482eeff7cafaae8188c131f30fe2d67ba9f1664c8d1",
+      "bytes": 2609
+    },
+    {
+      "path": "windows/README.md",
+      "sha256": "c936547eceff15f5eb00eaf651c564c163c4216a0663be63d35a16249025d947",
+      "bytes": 2076
+    },
+    {
+      "path": "windows/THIRD-PARTY.md",
+      "sha256": "9606a493b546b923c9961bc61d69a648d5922a4d7c3c4bf56863c0c2fb942a08",
+      "bytes": 2728
+    },
+    {
+      "path": "windows/bootstrap.py",
+      "sha256": "5750529fccd0bedd96f94b81710cfa34e1fe22a71eac2389af14bea651341f6c",
+      "bytes": 884
+    },
+    {
+      "path": "windows/build.ps1",
+      "sha256": "e083567227651cb11ca8b19843d6f069478dc0c8b03032b209f13b4e49f221f0",
+      "bytes": 7189
+    },
+    {
+      "path": "windows/packaging/README.md",
+      "sha256": "eb714391bd7def76a869a129b43622f5c5bfc87fdce471c916dbea83024c5e18",
+      "bytes": 2792
+    },
+    {
+      "path": "windows/packaging/RELEASE.md",
+      "sha256": "7549a90d964a457e8ff7e2d84f3eb51090fa68bc1e72e164d597378ae70a7f0c",
+      "bytes": 1515
+    },
+    {
+      "path": "windows/packaging/Zone.iss",
+      "sha256": "f6f93e9a9b209782bd5f16d40fd286dd9924ea900f6eb8e9397787f1a3cb658b",
+      "bytes": 2945
+    },
+    {
+      "path": "windows/packaging/acquire-community-runtime.ps1",
+      "sha256": "2e39f79a395a752b804f9454cf26fea0a814da7cd41c1ceec70e7293577f1c6d",
+      "bytes": 3779
+    },
+    {
+      "path": "windows/packaging/ffmpeg-source-manifest.json",
+      "sha256": "7ec67706a2a358b45f9e30c8b4a210be769f6b60da2d0606e54885f25bad07a2",
+      "bytes": 3346
+    },
+    {
+      "path": "windows/packaging/license_sources.py",
+      "sha256": "66890e94468cf75a9413fb2320117f83b8df82119230c9eb248c7d994706bcc5",
+      "bytes": 3922
+    },
+    {
+      "path": "windows/packaging/licensing.md",
+      "sha256": "1487fdade763fbe60f6e5ac36790212487f57a2d893112ff0f07434c48c85270",
+      "bytes": 4551
+    },
+    {
+      "path": "windows/packaging/modelnotices/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "path": "windows/packaging/modelnotices/NOTICE.txt",
+      "sha256": "2bfafbf720941ff877a365e02851aaa334559d6c5a402b60d4a2b101b07cce27",
+      "bytes": 1090
+    },
+    {
+      "path": "windows/packaging/modelnotices/PortAudio-LICENSE.txt",
+      "sha256": "ec52a1952d701f94e5135719a47376da4ee0b4a0201f1cafb49f61db6480ac3d",
+      "bytes": 3524
+    },
+    {
+      "path": "windows/packaging/modelnotices/components.json",
+      "sha256": "b0ec1d6b3b9d14499a0994bc04489f054941a10f995908e51e9873a74684560d",
+      "bytes": 2010
+    },
+    {
+      "path": "windows/packaging/modelnotices/geometry-metadata.pbtxt",
+      "sha256": "55ca7c4c7bf195673b9d12a1b5d49d4b9c82b5ade8fed4b565496590866e359d",
+      "bytes": 117675
+    },
+    {
+      "path": "windows/packaging/modelnotices/mediapipe-LICENSE.txt",
+      "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8",
+      "bytes": 12331
+    },
+    {
+      "path": "windows/packaging/modelnotices/portaudio-provenance.json",
+      "sha256": "d6509fb1904019371dbb50d668e63f2d3682a6e19452d91e8c0264a7de3f0e32",
+      "bytes": 354
+    },
+    {
+      "path": "windows/packaging/prepare.py",
+      "sha256": "50bbccc54c4047946c1599f13f0b9cc04d08a504d78d3d4de0d9a9d86b8a7fe8",
+      "bytes": 8962
+    },
+    {
+      "path": "windows/packaging/runtime-notices/Microsoft-Visual-C-Runtime-2015-2022.txt",
+      "sha256": "ed875263593823eb4b685cd543eda0ab075a6f57a76f7718908f2237466c442f",
+      "bytes": 6590
+    },
+    {
+      "path": "windows/packaging/runtime-notices/Microsoft-Visual-Studio-Community-2022.txt",
+      "sha256": "24b187690944c166a8337208454cbc775e1a39406d6f2a986e9a34d8f1a1f259",
+      "bytes": 18964
+    },
+    {
+      "path": "windows/packaging/runtime-notices/README.md",
+      "sha256": "887405082ab95d0548e0707a9322da152bc2930c360559beb2c7c14356d98319",
+      "bytes": 1238
+    },
+    {
+      "path": "windows/packaging/runtime-notices/observed-runtime-files.json",
+      "sha256": "ea030546a0c6399a04c28d746bd5abb765218307ffba3c733579461a7923ce38",
+      "bytes": 4844
+    },
+    {
+      "path": "windows/packaging/runtime-notices/provenance.json",
+      "sha256": "6150bdb214bd17fc0053c9fefff92ce408c83bdeb01cccb662961d0548a43426",
+      "bytes": 810
+    },
+    {
+      "path": "windows/packaging/sign-release.ps1",
+      "sha256": "baca6d60ce0593e17a95d644dd44e1a2413df4962be16985fced0e8c2efbca38",
+      "bytes": 2102
+    },
+    {
+      "path": "windows/packaging/source-manifest.json",
+      "sha256": "33e5bae0e8f5bf58f61326dbbb09bd7762e396567fc65e4f9b628a8fa6d053e4",
+      "bytes": 2070
+    },
+    {
+      "path": "windows/packaging/stage-runtime.ps1",
+      "sha256": "c5bcb2fd4550b294d3e35f6e6e4f8091e3c56b0b67441497685ce22f35fc2a99",
+      "bytes": 3731
+    },
+    {
+      "path": "windows/packaging/test-installer.ps1",
+      "sha256": "626f0094b0107c9260ed3488d9d3358573237240686d2f312bd1d2d74f156e6c",
+      "bytes": 5130
+    },
+    {
+      "path": "windows/packaging/version.json",
+      "sha256": "4fdb48cd32a7f248360d5a16a6dcdf53182413550924b813292caa9704fb6e7f",
+      "bytes": 150
+    },
+    {
+      "path": "windows/requirements.txt",
+      "sha256": "063fcb48970c4b8528edf2c456d219e26ada80cd6f5a4bf6b3742447fe6f09db",
+      "bytes": 123
+    },
+    {
+      "path": "windows/run_zone.py",
+      "sha256": "4bd02b6e91ee2dca3aa75433202bb994699243c4573106a716dcf2902a045652",
+      "bytes": 686
+    },
+    {
+      "path": "windows/tests/check_model_fixture.py",
+      "sha256": "155fe9f8c390049215c41983293db695bf79dd6ec647892f58f5168f3971aa21",
+      "bytes": 2231
+    },
+    {
+      "path": "windows/tests/make_video_fixture.py",
+      "sha256": "0d03a674f7d60e383660430b3619f825976c20adc0fe2f43f558c7e6e49b2746",
+      "bytes": 2794
+    },
+    {
+      "path": "windows/tests/render_ui.py",
+      "sha256": "fe2a301e174d2374d16a89480de123764c263366b9bac38d497dbbdccf75d20f",
+      "bytes": 2522
+    },
+    {
+      "path": "windows/tests/test_beta_packaging.py",
+      "sha256": "25c7782695036561909e11ffc13afa37cf164a1a4374e103e7e300ba84de8fd0",
+      "bytes": 16316
+    },
+    {
+      "path": "windows/tests/test_core.py",
+      "sha256": "4893db2557f4d8677cab20f47e21875aa77a3e7e044a064bdc6e1c238dad472e",
+      "bytes": 10065
+    },
+    {
+      "path": "windows/tests/test_lifecycle.py",
+      "sha256": "123885adca736b0db5cb3e2f2c4d2696f9c0eccfe2187b2334eddea4f24a5551",
+      "bytes": 8171
+    },
+    {
+      "path": "windows/tests/test_packaging.py",
+      "sha256": "6bd48cf218305615940ffc2e68f8844175d75d276f8a5efd611f4f18588106fb",
+      "bytes": 3144
+    },
+    {
+      "path": "windows/tests/test_progress.py",
+      "sha256": "c754a723c76619bdc594072a25dad215fc16b5bb2038a3dd969d1fe4052cde52",
+      "bytes": 8731
+    },
+    {
+      "path": "windows/tests/test_sensor.py",
+      "sha256": "6c0227a73ef026bb67bca2b88bbf997b9ed419c52d7c7457d980233c87a636df",
+      "bytes": 4876
+    },
+    {
+      "path": "windows/tests/test_ui.py",
+      "sha256": "b24a6abfdc1f41cea23492b41dd2d5649caa574ae67f8cd63e3e26f267289ed7",
+      "bytes": 6953
+    },
+    {
+      "path": "windows/tests/test_update.py",
+      "sha256": "1462ebd4a218077511be58e33b7b8fb2246e294562e156111ee3ed51ed433192",
+      "bytes": 3815
+    },
+    {
+      "path": "windows/zone/__init__.py",
+      "sha256": "90f29a01c3996cefb5189f8c5188aa88d777bd07a2758d00af083e18be85a660",
+      "bytes": 80
+    },
+    {
+      "path": "windows/zone/__main__.py",
+      "sha256": "3614600d36598165fc598b31650e5e1b98914c8583b9ca81f4cdea002392e462",
+      "bytes": 2514
+    },
+    {
+      "path": "windows/zone/core.py",
+      "sha256": "a8cb3475729e6e7919bc5ac2a057c427be2283d041018bbdd4e227f9461a5155",
+      "bytes": 16336
+    },
+    {
+      "path": "windows/zone/lifecycle.py",
+      "sha256": "6baffd143aa6583c5c9f7e9aebfb292f6ee90a1cc1468c7da179f65a18924afd",
+      "bytes": 10397
+    },
+    {
+      "path": "windows/zone/progress.py",
+      "sha256": "fd98922b843bc2561fc0de26978d4e6b2cf36a0d8ef8e15c10f48284f8d69a21",
+      "bytes": 8512
+    },
+    {
+      "path": "windows/zone/progress_view.py",
+      "sha256": "f32c5731523e069f5bbaf7a56712df0346de92ffc485ac70be71e9d8fad54192",
+      "bytes": 7993
+    },
+    {
+      "path": "windows/zone/qualification.py",
+      "sha256": "25572b7199d9ff241e4b0fc913a43bf6dc50468c60bd80b8c22ff810ec93509c",
+      "bytes": 7497
+    },
+    {
+      "path": "windows/zone/sensor.py",
+      "sha256": "c9654e1e6cfb7791c6dcbe62129a61fdaebce0712ffe28c389e02254b02ae539",
+      "bytes": 5552
+    },
+    {
+      "path": "windows/zone/ui.py",
+      "sha256": "b98d832155e896d46d01c8705686291365fce22b00a2d5a9284d9e1d8351b527",
+      "bytes": 36185
+    },
+    {
+      "path": "windows/zone/update.py",
+      "sha256": "a7ab15ea641f6a1b3b5249db7b35ae1b950fea48acc2a881fa9baab30474c584",
+      "bytes": 4608
+    }
+  ],
+  "scope": "Original application source, build/packaging inputs, tests and applicable notices. No private history or runtime data. Manifest excludes itself."
+}

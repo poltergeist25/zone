@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/PortAudio/portaudio/v19.7.0/LICENSE.txt",
+  "sha256": "ec52a1952d701f94e5135719a47376da4ee0b4a0201f1cafb49f61db6480ac3d",
+  "bundled_binary": "_sounddevice_data/portaudio-binaries/libportaudio64bit.dll",
+  "asio_binaries": "excluded",
+  "other_platform_binaries": "excluded",
+  "audio_capture": "not used"
+}
